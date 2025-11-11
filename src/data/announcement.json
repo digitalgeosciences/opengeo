@@ -1,8 +1,8 @@
 {
   "active": false,
   "variant": "info",
-  "title": "Notification",
-  "message": "We're rebuilding Open Geosciences with richer discovery tools. Please contact us if you have any questions or early access requests.",
-  "ctaText": "Contact us",
-  "ctaUrl": "mailto:info@digitalgeosciences.com?subject=Open%20Geosciences%20Hub"
+  "title": "Welcome to Open Geosciences",
+  "message": "You're early! We're polishing the catalogue ahead of launch. Explore the listings and email info@digitalgeosciences.com if you want to contribute.",
+  "ctaText": "Say hello",
+  "ctaUrl": "mailto:info@digitalgeosciences.com?subject=Welcome%20to%20Open%20Geosciences"
 }
