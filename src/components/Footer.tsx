@@ -12,9 +12,9 @@ export const Footer = () => {
     : "Not specified";
 
   return (
-    <footer className="border-t border-border/40 bg-muted/30 mt-8">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="max-w-5xl mx-auto space-y-10">
+    <footer className="border-t border-border/40 bg-muted/30 mt-6">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="max-w-5xl mx-auto space-y-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-[2fr,1fr,1fr]">
             <div className="space-y-3">
               <h3 className="font-semibold text-foreground">About Open Geosciences</h3>
@@ -24,9 +24,9 @@ export const Footer = () => {
               </p>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-2.5">
               <h3 className="font-semibold text-foreground">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-1.5 text-sm">
                 <li>
                   <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">
                     About
@@ -61,7 +61,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t border-border/40 pt-6">
+          <div className="border-t border-border/40 pt-4">
             <div className="flex flex-col items-center gap-2 text-center text-sm text-muted-foreground md:flex-row md:justify-between md:text-left">
               <p className="flex items-center justify-center gap-1">
                 Built and maintained by{" "}

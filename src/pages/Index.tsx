@@ -100,37 +100,55 @@ const Index = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
 
-      <main className="container mx-auto px-4 py-8 flex-1">
+      <main className="container mx-auto px-4 pt-8 pb-6 sm:pb-8 flex-1">
         {/* Search + Filter Section */}
-        <div className="max-w-5xl mx-auto text-center space-y-4">
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <input
-              type="text"
-              placeholder="Search tools..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full sm:w-2/3 md:w-1/2 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-            <div className="flex gap-2">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => setShowTags((v) => !v)}
-                className="flex items-center gap-1"
-              >
-                <Filter className="w-4 h-4" />
-                {showTags ? "Hide Tags" : "Filter by Tag"}
-              </Button>
-              {(searchQuery || selectedTag) && (
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={clearFilters}
-                  className="flex items-center gap-1"
-                >
-                  <X className="w-4 h-4" /> Clear
-                </Button>
-              )}
+        <div className="max-w-5xl mx-auto space-y-5">
+          <div className="flex flex-col gap-3 text-center">
+            <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                <input
+                  type="text"
+                  placeholder="Search tools..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full sm:min-w-[24rem] lg:w-[28rem] px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                />
+                <div className="flex gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setShowTags((v) => !v)}
+                    className="flex items-center gap-1"
+                  >
+                    <Filter className="w-4 h-4" />
+                    {showTags ? "Hide Tags" : "Filter by Tag"}
+                  </Button>
+                  {(searchQuery || selectedTag) && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={clearFilters}
+                      className="flex items-center gap-1"
+                    >
+                      <X className="w-4 h-4" /> Clear
+                    </Button>
+                  )}
+                </div>
+              </div>
+
+              <p className="text-sm text-muted-foreground lg:text-right">
+                Showing{" "}
+                <span className="font-semibold text-foreground">
+                  {visibleTools.length}
+                </span>{" "}
+                of{" "}
+                <span className="font-semibold text-foreground">
+                  {filteredTools.length}
+                </span>{" "}
+                tools
+                {searchQuery && ` for "${searchQuery}"`}
+                {selectedTag && ` tagged "${selectedTag}"`}
+              </p>
             </div>
           </div>
 
@@ -155,24 +173,10 @@ const Index = () => {
               ))}
             </div>
           )}
-
-          <p className="text-sm text-muted-foreground">
-            Showing{" "}
-            <span className="font-semibold text-foreground">
-              {visibleTools.length}
-            </span>{" "}
-            of{" "}
-            <span className="font-semibold text-foreground">
-              {filteredTools.length}
-            </span>{" "}
-            tools
-            {searchQuery && ` for "${searchQuery}"`}
-            {selectedTag && ` tagged "${selectedTag}"`}
-          </p>
         </div>
 
         {/* Unified Grid */}
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
           {visibleTools.map((tool, i) => (
             <ToolCard key={`${tool.name}-${i}`} {...tool} />
           ))}
@@ -180,7 +184,7 @@ const Index = () => {
 
         {/* Show More / Less */}
         {(canShowMore || canShowLess) && (
-          <div className="flex justify-center mt-4 gap-3">
+          <div className="flex justify-center mt-6 mb-4 gap-3">
             {canShowMore && (
               <Button variant="outline" size="sm" onClick={handleShowMore}>
                 Show More
