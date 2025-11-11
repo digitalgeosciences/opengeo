@@ -1,7 +1,7 @@
 {
   "active": true,
   "variant": "info",
-  "title": "Open Geosciences—coming soon!",
+  "title": "Notification",
   "message": "The open geosciences platform is currently under development.",
   "ctaText": "Contact us",
   "ctaUrl": "mailto:info@digitalgeosciences.com"
