@@ -1,0 +1,2455 @@
+[
+  {
+    "name": "Auralib",
+    "icon": "🌐",
+    "description": "Python package to support investigation of geoscience problems including geophysics, rock physics, petrophysics, and data read/write in common formats",
+    "link": "https://github.com/whamlyn/auralib",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Bruges",
+    "icon": "🌐",
+    "description": "Various geophysical equations and tools",
+    "link": "https://github.com/agile-geoscience/bruges/tree/master/bruges",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Madagascar",
+    "icon": "🌐",
+    "description": "Multi-dimensional data processing suite",
+    "link": "https://ahay.org/wiki/Main_Page",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "MDIO",
+    "icon": "🌐",
+    "description": "Open source chunked and compressed cloud storage for seismic data based on Zarr with fast seismic ingestion and export tools – [Docs](https://mdio-python.readthedocs.io), [Source](https://github.com/TGSAI/mdio-python)",
+    "link": "https://mdio.dev",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ObsPy",
+    "icon": "🌐",
+    "description": "Framework for reading, writing and processing seismic and seismological data",
+    "link": "https://github.com/obspy/obspy/wiki",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpendTect-Plugins",
+    "icon": "🌐",
+    "description": "Open source plugins for the [OpendTect](#platforms) seismic interpretation platform. See [the docs](https://waynegm.github.io/OpendTect-Plugin-Docs) for more information",
+    "link": "https://github.com/waynegm/OpendTect-Plugins",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpenSeaSeis",
+    "icon": "🌐",
+    "description": "Seismic workflow generator and seismic viewer",
+    "link": "https://github.com/JohnWStockwellJr/OpenSeaSeis",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Pastas",
+    "icon": "🌐",
+    "description": "Open-source Python framework for the analysis of groundwater time series",
+    "link": "https://github.com/pastas/pastas",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Pyrocko",
+    "icon": "🌐",
+    "description": "Seismology toolkit",
+    "link": "https://git.pyrocko.org/pyrocko/pyrocko",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyVDS",
+    "icon": "🌐",
+    "description": "Convenience wrapper around Bluware's OpenVDS+ Python bindings which enables reading of VDS files with a syntax familiar to users of segyio",
+    "link": "https://github.com/equinor/pyvds",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyZGY",
+    "icon": "🌐",
+    "description": "Convenience wrapper around Schlumberger's OpenZGY Python package which enables reading of ZGY files with a syntax familiar to users of segyio",
+    "link": "https://github.com/equinor/pyzgy",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "RedPy",
+    "icon": "🌐",
+    "description": "Auto-clustering for seismic events",
+    "link": "https://github.com/ahotovec/REDPy",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "rsudp",
+    "icon": "🌐",
+    "description": "Continuous ObsPy-based visual display, sudden motion monitoring, and historical replay of Raspberry Shake data",
+    "link": "https://github.com/raspishake/rsudp",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Segyio",
+    "icon": "🌐",
+    "description": "Fast library for seismic SEGY files",
+    "link": "https://github.com/equinor/segyio",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SeisComp",
+    "icon": "🌐",
+    "description": "Seismic observatory automation toolkit. Autodetection, storage, sharing, processing data and more",
+    "link": "https://github.com/SeisComP/seiscomp",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Seismic Un*x",
+    "icon": "🌐",
+    "description": "Seismic data processing suite",
+    "link": "https://github.com/JohnWStockwellJr/SeisUnix",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SeismicZFP",
+    "icon": "🌐",
+    "description": "Convert SEG-Y/ZGY files to compressed SGZ files & retrieve arbitrary sub-volumes from these, fast",
+    "link": "https://github.com/equinor/seismic-zfp",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "synthoseis",
+    "icon": "🌐",
+    "description": "Synthoseis is an open-source, Python-based tool used for generating pseudo-random seismic data",
+    "link": "https://github.com/sede-open/synthoseis",
+    "category": "Seismic and Seismology",
+    "tags": [
+      "seismic",
+      "seismology",
+      "geophysics",
+      "seismic-processing",
+      "earthquakes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "gprMax",
+    "icon": "📡",
+    "description": "Finite-difference time-domain electromagnetic wave propagation simulator (on CPU and GPU)",
+    "link": "https://www.gprmax.com",
+    "category": "Ground-penetrating radar",
+    "tags": [
+      "ground-penetrating",
+      "radar",
+      "gpr",
+      "subsurface-imaging",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GPRPy",
+    "icon": "📡",
+    "description": "Multi-format, GUI-based GPR processing and visualization",
+    "link": "https://github.com/NSGeophysics/GPRPy",
+    "category": "Ground-penetrating radar",
+    "tags": [
+      "ground-penetrating",
+      "radar",
+      "gpr",
+      "subsurface-imaging",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "RAGU",
+    "icon": "📡",
+    "description": "Radar interpretation GUI compatible with multiple radar datasets",
+    "link": "https://github.com/btobers/RAGU",
+    "category": "Ground-penetrating radar",
+    "tags": [
+      "ground-penetrating",
+      "radar",
+      "gpr",
+      "subsurface-imaging",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "readgssi",
+    "icon": "📡",
+    "description": "Fast command line or console-based visualization, filtering, and translation of GSSI radar data",
+    "link": "https://github.com/iannesbitt/readgssi",
+    "category": "Ground-penetrating radar",
+    "tags": [
+      "ground-penetrating",
+      "radar",
+      "gpr",
+      "subsurface-imaging",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "RGPR",
+    "icon": "📡",
+    "description": "Reads, exports, processes, and plots ground-penetrating radar data",
+    "link": "https://github.com/emanuelhuber/RGPR",
+    "category": "Ground-penetrating radar",
+    "tags": [
+      "ground-penetrating",
+      "radar",
+      "gpr",
+      "subsurface-imaging",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "dlisio",
+    "icon": "🛢️",
+    "description": "Parser for dlis and lis well log files",
+    "link": "https://github.com/equinor/dlisio",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "lasio",
+    "icon": "🛢️",
+    "description": "Reading and writing well data using Log ASCII Standard (LAS) files",
+    "link": "https://github.com/kinverarity1/lasio",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpenGeoPlotter",
+    "icon": "🛢️",
+    "description": "Create strip logs, drill sections, other plots",
+    "link": "https://github.com/bsomps/OpenGeoPlotter",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PetroPy",
+    "icon": "🛢️",
+    "description": "Petrophysics package for conventional and unconventional formation evaluation and includes basic well log visualization via matplotlib",
+    "link": "https://github.com/toddheitmann/PetroPy",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Striplog",
+    "icon": "🛢️",
+    "description": "Display lithological and stratigraphic logs for wells and outcrop",
+    "link": "https://github.com/agile-geoscience/striplog",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Wellioviz",
+    "icon": "🛢️",
+    "description": "Visualizes well logs using d3.js. Companion to Wellio.js",
+    "link": "https://github.com/JustinGOSSES/wellioviz",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Wellpathpy",
+    "icon": "🛢️",
+    "description": "Light package to load well deviations",
+    "link": "https://github.com/Zabamund/wellpathpy",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Welly",
+    "icon": "🛢️",
+    "description": "Analyzing and processing well log data",
+    "link": "https://github.com/agile-geoscience/welly",
+    "category": "Well Log",
+    "tags": [
+      "well",
+      "log",
+      "petrophysics",
+      "well-logs",
+      "borehole"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Basic Model Interface (BMI)",
+    "icon": "⚙️",
+    "description": "A standardized set of functions for model-model and model-data coupling",
+    "link": "https://github.com/csdms/bmi",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "bh_tomo",
+    "icon": "⚙️",
+    "description": "Borehole radar and seismic tomography package",
+    "link": "https://github.com/groupeLIAMG/bh_tomo",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "BlenderGeoModeller",
+    "icon": "⚙️",
+    "description": "A Blender add-on with a collection of tools for 3-D geological modelling",
+    "link": "https://github.com/bsomps/BlenderGeoModeller",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Devito",
+    "icon": "⚙️",
+    "description": "Finite-Difference computation from high-level symbolic problem definitions",
+    "link": "https://www.devitoproject.org",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "disba",
+    "icon": "⚙️",
+    "description": "Numba-accelerated computation of surface wave dispersion",
+    "link": "https://github.com/keurfonluu/disba",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "emsig",
+    "icon": "⚙️",
+    "description": "Controlled-source electromagnetic modellers for layered and three-dimensional anisotropic media",
+    "link": "https://emsig.xyz",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Fatiando a Terra",
+    "icon": "⚙️",
+    "description": "Modelling and inversion in geophysics",
+    "link": "https://github.com/fatiando",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GemPy",
+    "icon": "⚙️",
+    "description": "3-D structural geological modelling software with implicit modelling and support for stochastic modelling",
+    "link": "https://github.com/cgre-aachen/gempy",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoPhyInv",
+    "icon": "⚙️",
+    "description": "Julia Toolbox for Geophysical Modeling and Inverse Problems",
+    "link": "https://github.com/pawbz/GeoPhyInv.jl",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "HyVR",
+    "icon": "⚙️",
+    "description": "3-D anisotropic subsurface models based on geological concepts that can be used with groundwater flow simulators (e.g., [ModFlow](#simulation-and-modelling))",
+    "link": "https://github.com/driftingtides/hyvr",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Landlab",
+    "icon": "⚙️",
+    "description": "Simulate surface processes using a large suite of existing interoperable process components (landscape evolution, sediment dynamics, surface hydrology, ecohydrology), extensible by own modules",
+    "link": "https://github.com/landlab/landlab",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "LoopStructural",
+    "icon": "⚙️",
+    "description": "an open-source 3D structural geological modelling library",
+    "link": "https://github.com/Loop3D/LoopStructural",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "modelr.io",
+    "icon": "⚙️",
+    "description": "Web app for simple synthetic seismic forward modelling",
+    "link": "https://github.com/agile-geoscience/modelr",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ModFlow",
+    "icon": "⚙️",
+    "description": "Flow modelling software distributed by the USGS to simulate and predict groundwater conditions and groundwater/surface-water interactions with additional variants and add-ons",
+    "link": "https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OccamyPy",
+    "icon": "⚙️",
+    "description": "an object-oriented optimization framework for small- and large-scale problems",
+    "link": "https://github.com/fpicetti/occamypy",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PyFWI",
+    "icon": "⚙️",
+    "description": "It can be used to perform full-waveform inversion (FWI) and time-lapse FWI of seismic data",
+    "link": "https://pyfwi.readthedocs.io/en/latest",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyGeoPressure",
+    "icon": "⚙️",
+    "description": "Pore pressure prediction using well log data and seismic velocity data",
+    "link": "https://pygeopressure.readthedocs.io/en/latest",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyGIMLi",
+    "icon": "⚙️",
+    "description": "Multi-method library for solving inverse and forward tasks related to geophysical problems",
+    "link": "https://www.pygimli.org",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PyLops",
+    "icon": "⚙️",
+    "description": "Linear Operators with some geophysics/seismic modules (e.g., pre- and post-stack AVO inversion, deconvolution, Marchenko redatuming, Radon filtering)",
+    "link": "https://pylops.readthedocs.io/en/latest",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PyMT",
+    "icon": "⚙️",
+    "description": "Python toolkit for coupling models and datasets that expose the Basic Model Interface (BMI)",
+    "link": "https://github.com/csdms/pymt",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PySIT",
+    "icon": "⚙️",
+    "description": "A Toolbox for seismic inversion and seismic imaging",
+    "link": "https://pysit.org",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ResIPy",
+    "icon": "⚙️",
+    "description": "an intuitive open source software for complex geoelectrical inversion/modeling",
+    "link": "https://gitlab.com/hkex/resipy",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SimPEG",
+    "icon": "⚙️",
+    "description": "Simulation and parameter estimation in geophysics",
+    "link": "https://github.com/simpeg/simpeg",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ttcrpy",
+    "icon": "⚙️",
+    "description": "Traveltime computation and raytracing on 2D & 3D rectilinear grids and unstructured meshes",
+    "link": "https://ttcrpy.readthedocs.io/en/latest",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "XTgeo",
+    "icon": "⚙️",
+    "description": "Python library with C backend to support manipulation of (oil industry) subsurface reservoir modelling",
+    "link": "https://xtgeo.readthedocs.io/en/latest",
+    "category": "Simulation and Modelling",
+    "tags": [
+      "simulation",
+      "modelling",
+      "numerical-modeling",
+      "inversion"
+    ],
+    "stars": null
+  },
+  {
+    "name": "DuMux",
+    "icon": "💧",
+    "description": "Simulator for flow and transport processes in porous media",
+    "link": "https://dumux.org",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "DeepField",
+    "icon": "💧",
+    "description": "A framework for reading and writing Eclipse reservoir data, reservoir preprocessing and interactive visualization",
+    "link": "https://github.com/deepfield-team/DeepField",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ecl",
+    "icon": "💧",
+    "description": "Reading and writing Eclipse reservoir simulator files",
+    "link": "https://github.com/equinor/ecl",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Fesapi",
+    "icon": "💧",
+    "description": "Reading and writing RESQML2 files",
+    "link": "https://github.com/F2I-Consulting/fesapi",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "libres",
+    "icon": "💧",
+    "description": "Tool for managing an ensemble of reservoir models",
+    "link": "https://github.com/equinor/libres",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "MRST",
+    "icon": "💧",
+    "description": "Rapid prototyping and demonstration of new simulation methods in reservoir modelling and simulation",
+    "link": "https://www.sintef.no/projectweb/mrst",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ResInsight",
+    "icon": "💧",
+    "description": "ResInsight is a powerful open source, cross-platform 3D visualization, curve plotting, and post processing tool for reservoir models and simulations",
+    "link": "https://github.com/OPM/ResInsight",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SHEMAT-Suite",
+    "icon": "💧",
+    "description": "Simulator for flow, heat and species transport in porous media including stochastic and deterministic parameter estimation",
+    "link": "https://git.rwth-aachen.de/SHEMAT-Suite/SHEMAT-Suite-open",
+    "category": "Reservoir Engineering",
+    "tags": [
+      "reservoir",
+      "engineering",
+      "simulation",
+      "petroleum"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeostatsPy",
+    "icon": "📊",
+    "description": "GSLIB reimplemented in Python",
+    "link": "https://github.com/GeostatsGuy/GeostatsPy",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoStats.jl",
+    "icon": "📊",
+    "description": "High-performance geostatistics in Julia",
+    "link": "https://github.com/JuliaEarth/GeoStats.jl",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoStat-Framework",
+    "icon": "📊",
+    "description": "Framework for geostatistical simulations",
+    "link": "https://github.com/GeoStat-Framework",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "gstat",
+    "icon": "📊",
+    "description": "Geostatistical modelling, prediction and simulation",
+    "link": "https://github.com/r-spatial/gstat",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "gstlearn",
+    "icon": "📊",
+    "description": "Complete cross-platform library and packages for Geostatistics proposed by MINES PARIS – PSL University",
+    "link": "https://gstlearn.org",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "G2S",
+    "icon": "📊",
+    "description": "A free, flexible and multi-language multiple point (MPS) (geo)statistics framework including the state-of-the-art algorithm QuickSampling",
+    "link": "https://gaia-unil.github.io/G2S",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "HPGL",
+    "icon": "📊",
+    "description": "High performance geostatistics library",
+    "link": "https://github.com/hpgl/hpgl",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PyGSLIB",
+    "icon": "📊",
+    "description": "Mineral resource estimations",
+    "link": "https://opengeostat.github.io/pygslib/index.html",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Pyinterpolate",
+    "icon": "📊",
+    "description": "Kriging, Poisson Kriging, Semivariogram Deconvolution, Areal Kriging and other spatial interpolation methods in Python for Earth, Ecology and Social Sciences",
+    "link": "https://github.com/DataverseLabs/pyinterpolate",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyKriging",
+    "icon": "📊",
+    "description": "N-dimensional kriging",
+    "link": "https://github.com/capaulson/pyKriging",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pysgems",
+    "icon": "📊",
+    "description": "Use SGeMS (Stanford geostatistical modelling software) within Python",
+    "link": "https://github.com/robinthibaut/pysgems",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SciKit-GStat",
+    "icon": "📊",
+    "description": "SciPy-styled analysis module for geostatistics",
+    "link": "https://github.com/mmaelicke/scikit-gstat",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SGeMS",
+    "icon": "📊",
+    "description": "Stanford geostatistical modelling software",
+    "link": "https://sgems.sourceforge.net",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "bm_geostat_process",
+    "icon": "📊",
+    "description": "open source workflow for geostatistics block models",
+    "link": "https://github.com/pemn/bm_geostat_process",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geostatistics Lessons",
+    "icon": "📊",
+    "description": "Geostatistics practice",
+    "link": "https://geostatisticslessons.com",
+    "category": "Geostatistics",
+    "tags": [
+      "geostatistics",
+      "spatial-modeling",
+      "analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Generic Mapping Tools (GMT)",
+    "icon": "🗺️",
+    "description": "About 80 command-line tools for manipulating geographic and Cartesian data sets",
+    "link": "https://www.generic-mapping-tools.org",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "geonotebook",
+    "icon": "🗺️",
+    "description": "Jupyter notebook extension for geospatial visualization and analysis developed by NASA",
+    "link": "https://github.com/OpenGeoscience/geonotebook",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoPHP",
+    "icon": "🗺️",
+    "description": "Geospatial library that works with many formats",
+    "link": "https://geophp.net",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GRASS-GIS",
+    "icon": "🗺️",
+    "description": "GIS platform, see [Platforms](#platforms)",
+    "link": "#platforms",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Stress2Grid",
+    "icon": "🗺️",
+    "description": "Two concepts to calculate the mean SHmax orientation",
+    "link": "https://dataservices.gfz-potsdam.de/wsm/showshort.php?id=escidoc:2112906",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Verde",
+    "icon": "🗺️",
+    "description": "processing spatial data to regular grids",
+    "link": "https://github.com/fatiando/verde",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "vtk_triangulate_points",
+    "icon": "🗺️",
+    "description": "Generate simplified topography surfaces from dense point clouds (lidar/radar/drone)",
+    "link": "https://github.com/pemn/vtk_triangulate_points",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "whitebox-tools",
+    "icon": "🗺️",
+    "description": "An advanced geospatial data analysis platform",
+    "link": "https://github.com/jblindsay/whitebox-tools",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "gemgis",
+    "icon": "🗺️",
+    "description": "Spatial data processing for geomodeling",
+    "link": "https://github.com/cgre-aachen/gemgis",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SamGIS",
+    "icon": "🗺️",
+    "description": "Image Segmentation machine learning based applied to GIS and geo data. HuggingFace demo [here](https://huggingface.co/spaces/aletrn/samgis)",
+    "link": "https://github.com/trincadev/samgis-be",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Open Geospatial Solutions",
+    "icon": "🗺️",
+    "description": "A collection of open-source software packages for the geospatial community",
+    "link": "https://github.com/opengeos",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geemap",
+    "icon": "🗺️",
+    "description": "A Python package for interactive geospatial analysis and visualization with Google Earth Engine",
+    "link": "https://geemap.org/",
+    "category": "Geospatial",
+    "tags": [
+      "geospatial",
+      "gis",
+      "mapping",
+      "spatial-analysis"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoPyTool",
+    "icon": "🧪",
+    "description": "Application with geochemical plotting capabilities",
+    "link": "https://github.com/GeoPyTool/GeoPyTool",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PhreeQC",
+    "icon": "🧪",
+    "description": "Reactions in water and between water and rocks and sediments (speciation, batch-reaction, one-dimensional transport, and inverse geochemical calculations)",
+    "link": "https://www.usgs.gov/software/phreeqc-version-3",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pyrolite",
+    "icon": "🧪",
+    "description": "Geochemical transformation and visualisation",
+    "link": "https://github.com/morganjwilliams/pyrolite",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Reaktoro",
+    "icon": "🧪",
+    "description": "Unified framework for modelling chemically reactive systems",
+    "link": "https://reaktoro.org",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Thermobar",
+    "icon": "🧪",
+    "description": "Thermobarometry, chemometry and mineral equilibrium tool",
+    "link": "https://github.com/PennyWieser/Thermobar",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "CHNOSZ",
+    "icon": "🧪",
+    "description": "Thermodynamic calculations and diagrams for geochemistry",
+    "link": "https://www.chnosz.net/",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoChemical Data toolkit – GCDKit",
+    "icon": "🧪",
+    "description": "System for handling and recalculation of whole-rock analyses from igneous rocks",
+    "link": "https://gcdkit.org/",
+    "category": "Geochemistry",
+    "tags": [
+      "geochemistry",
+      "analysis",
+      "lab-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Underworld",
+    "icon": "🌋",
+    "description": "Computational tools for the geodynamics community",
+    "link": "https://github.com/underworldcode/underworld2",
+    "category": "Geodynamics",
+    "tags": [
+      "geodynamics",
+      "tectonics",
+      "earth-processes"
+    ],
+    "stars": null
+  },
+  {
+    "name": "MATE",
+    "icon": "🧲",
+    "description": "A Python program for interpreting magnetotelluric models of the mantle",
+    "link": "https://github.com/sinanozaydin/MATE",
+    "category": "Magnetotellurics",
+    "tags": [
+      "magnetotellurics",
+      "electromagnetics",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "MTPy",
+    "icon": "🧲",
+    "description": "A Python Toolbox for magnetotelluric data processing, analysis, modelling and visualization",
+    "link": "https://github.com/MTgeophysics/mtpy",
+    "category": "Magnetotellurics",
+    "tags": [
+      "magnetotellurics",
+      "electromagnetics",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Razorback",
+    "icon": "🧲",
+    "description": "An Python library for magnetotelluric robust processing",
+    "link": "https://github.com/brgm/razorback",
+    "category": "Magnetotellurics",
+    "tags": [
+      "magnetotellurics",
+      "electromagnetics",
+      "geophysics"
+    ],
+    "stars": null
+  },
+  {
+    "name": "apsg",
+    "icon": "🏔️",
+    "description": "Advanced structural geology analysis and visualisation based on Matplotlib",
+    "link": "https://github.com/ondrolexa/apsg",
+    "category": "Structural Geology",
+    "tags": [
+      "structural",
+      "geology",
+      "structural-geology",
+      "tectonics",
+      "modeling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "mplStereonet",
+    "icon": "🏔️",
+    "description": "Stereonets on python based on Matplotlib",
+    "link": "https://github.com/joferkington/mplstereonet",
+    "category": "Structural Geology",
+    "tags": [
+      "structural",
+      "geology",
+      "structural-geology",
+      "tectonics",
+      "modeling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpenStereo",
+    "icon": "🏔️",
+    "description": "An open source, cross-platform structural geology analysis software",
+    "link": "https://github.com/spamlab-iee/os",
+    "category": "Structural Geology",
+    "tags": [
+      "structural",
+      "geology",
+      "structural-geology",
+      "tectonics",
+      "modeling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Stress_state_plot",
+    "icon": "🏔️",
+    "description": "An open source structural geology package for visualisation of a given stress-state",
+    "link": "https://github.com/mkondratyev85/stress_state_plot",
+    "category": "Structural Geology",
+    "tags": [
+      "structural",
+      "geology",
+      "structural-geology",
+      "tectonics",
+      "modeling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "cmocean",
+    "icon": "📈",
+    "description": "MatPlotLib collection of perceptual colormaps for oceanography",
+    "link": "https://matplotlib.org/cmocean",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Colorcet",
+    "icon": "📈",
+    "description": "Perceptual colormaps",
+    "link": "https://github.com/holoviz/colorcet",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geologic Patterns",
+    "icon": "📈",
+    "description": "Entire FGDC pattern library extracted to SVG and PNG for use in geologic maps and stratigraphic columns",
+    "link": "https://github.com/davenquinn/geologic-patterns",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ipyleaflet",
+    "icon": "📈",
+    "description": "2D interactive maps and GIS visualization in the Jupyter Notebook",
+    "link": "https://github.com/jupyter-widgets/ipyleaflet",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "localtileserver",
+    "icon": "📈",
+    "description": "A Python package for serving tiles from large raster files in the Slippy Maps standard (i.e., `/zoom/x/y.png`) for visualization in Jupyter with `ipyleaflet` or `folium`",
+    "link": "https://github.com/banesullivan/localtileserver",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "omfvista",
+    "icon": "📈",
+    "description": "PyVista interface for the [Open Mining Format (omf)](#miscellaneous) package",
+    "link": "https://github.com/OpenGeoVis/omfvista",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PyVista",
+    "icon": "📈",
+    "description": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)",
+    "link": "https://github.com/pyvista/pyvista",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PVGeo",
+    "icon": "📈",
+    "description": "Data and model visualization in ParaView and Visualization Toolkit (VTK) via PyVista",
+    "link": "https://github.com/OpenGeoVis/PVGeo",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GeoVista",
+    "icon": "📈",
+    "description": "Cartographic rendering and mesh analytics powered by PyVista",
+    "link": "https://github.com/bjlittle/geovista",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Digitize Heatmap",
+    "icon": "📈",
+    "description": "Get numerical data from a heatmap from a PDF format",
+    "link": "https://github.com/RyanFu008/digitize-heatmap",
+    "category": "Visualization",
+    "tags": [
+      "visualization",
+      "graphics",
+      "plotting"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpendTect",
+    "icon": "💻",
+    "description": "Seismic interpretation package, source code available at [github](https://github.com/OpendTect/OpendTect)",
+    "link": "https://dgbes.com/software/opendtect",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "OpenGeode",
+    "icon": "💻",
+    "description": "Representation and manipulation of geological models",
+    "link": "https://github.com/Geode-solutions/OpenGeode",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Pangeo",
+    "icon": "💻",
+    "description": "A community platform for Big Data geoscience built on top of the open source scientific python ecosystem",
+    "link": "https://pangeo.io",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "QGIS",
+    "icon": "💻",
+    "description": "GIS platform to visualize, manage, edit, analyse data, and compose printable maps",
+    "link": "https://qgis.org/en/site",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Webviz",
+    "icon": "💻",
+    "description": "Webviz is a wrapper on top of Dash from Plotly which encourages making reusable data visualisation components and dashboards",
+    "link": "https://github.com/equinor/webviz-config",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Webviz-subsurface",
+    "icon": "💻",
+    "description": "Webviz-subsurface contains subsurface specific standard webviz containers, which are used as plugins in webviz-config",
+    "link": "https://github.com/equinor/webviz-subsurface",
+    "category": "Platforms",
+    "tags": [
+      "platforms",
+      "workflow",
+      "integration",
+      "platform"
+    ],
+    "stars": null
+  },
+  {
+    "name": "geoVec",
+    "icon": "💬",
+    "description": "\"Word embeddings for application in geosciences: development, evaluation and examples of soil-related concepts\" and an [implementation](https://github.com/JustinGOSSES/geoVec-playground)",
+    "link": "https://osf.io/4uyeq/wiki/home",
+    "category": "Natural Language Processing",
+    "tags": [
+      "natural",
+      "language",
+      "processing",
+      "nlp",
+      "ai",
+      "automation"
+    ],
+    "stars": null
+  },
+  {
+    "name": "IsoplotR",
+    "icon": "⌛",
+    "description": "A free and open-source substitute for Kenneth Ludwig's popular _Isoplot_ add-in to Microsoft Excel",
+    "link": "https://github.com/pvermees/IsoplotR",
+    "category": "Geochronology",
+    "tags": [
+      "geochronology",
+      "chronology",
+      "isotopes",
+      "dating"
+    ],
+    "stars": null
+  },
+  {
+    "name": "pychron",
+    "icon": "⌛",
+    "description": "Data acquisition and processing framework for Ar-Ar geochronology and noble gas mass spectrometry",
+    "link": "https://github.com/NMGRL/pychron",
+    "category": "Geochronology",
+    "tags": [
+      "geochronology",
+      "chronology",
+      "isotopes",
+      "dating"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Athabasca Oil Sands Well Dataset McMurray/Wabiskaw",
+    "icon": "🗂️",
+    "description": "Well logs and stratigraphic picks for 2193 wells, including 750 with lithofacies, from Alberta, Canada",
+    "link": "https://ags.aer.ca/publication/spe-006",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Digital Rocks Portal",
+    "icon": "🗂️",
+    "description": "Powerful data portal for images of varied porous micro-structures",
+    "link": "https://www.digitalrocksportal.org",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geoscience Australia Portal",
+    "icon": "🗂️",
+    "description": "Comprehensive map-based Australian data portal across multiple geoscience domains",
+    "link": "https://portal.ga.gov.au",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "GSQ Open Data Portal",
+    "icon": "🗂️",
+    "description": "Petroleum, coal, and mineral geoscience data from the Queensland resource industry and government, with supporting information from [GSQ GitHub Repository](https://github.com/geological-survey-of-queensland) for Data Models, RDF Vocabularies, and system design. Use of VPN may result in 403 error",
+    "link": "https://geoscience.data.qld.gov.au/",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ICGEM",
+    "icon": "🗂️",
+    "description": "Hosts gravity field spherical harmonic models and provides a webservice for generating grids of gravity functionals (geoid, gravity anomaly, vertical derivatives, etc)",
+    "link": "https://icgem.gfz-potsdam.de/home",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NOPIMS",
+    "icon": "🗂️",
+    "description": "Open petroleum geoscience data from Western Australia made available by the Australian Government",
+    "link": "https://www.ga.gov.au/nopims",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Poseidon NW Australia",
+    "icon": "🗂️",
+    "description": "Interpreted 3D seismic (32bit) including reports and well logs",
+    "link": "https://drive.google.com/drive/folders/0B7brcf-eGK8Cbk9ueHA0QUU4Zjg",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Quantarctica",
+    "icon": "🗂️",
+    "description": "User-configurable [QGIS](#platforms) basemap for Antarctica with high-quality, peer-reviewed, free and open Antarctic scientific data",
+    "link": "https://www.npolar.no/quantarctica",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SARIG",
+    "icon": "🗂️",
+    "description": "South Australian Resources and Information Gateway providing map-based statewide geoscientific and geospatial data with over 600 datasets",
+    "link": "https://map.sarig.sa.gov.au",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "SEG Open Data Catalog",
+    "icon": "🗂️",
+    "description": "Catalog of \"geophysical data that is readily available for download from the internet, via mail, or through special request\", maintained by the Society of Exploration Geophysicists",
+    "link": "https://wiki.seg.org/wiki/Open_data",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "TerraNubis",
+    "icon": "🗂️",
+    "description": "The new _Open Seismic Repository_, includes the classic F3 and Penobscot seismic volumes (which both also have wells and other data assets)",
+    "link": "https://terranubis.com/datalist/free",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "UK National Data Repository",
+    "icon": "🗂️",
+    "description": "Open petroleum geoscience data from the UK Government (free registration required)",
+    "link": "https://ndr.ogauthority.co.uk",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Volve data village",
+    "icon": "🗂️",
+    "description": "A complete set of data from a North Sea oil field available for research, study and development purposes",
+    "link": "https://www.equinor.com/energy/volve-data-sharing",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "World Stress Map",
+    "icon": "🗂️",
+    "description": "A global compilation of information on the crustal present-day stress field",
+    "link": "https://www.world-stress-map.org",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Macrostrat",
+    "icon": "🗂️",
+    "description": "A multiscale, harmonized, and globally-defined geologic map dataset and stratigraphic API",
+    "link": "https://macrostrat.org",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Costa Model",
+    "icon": "🗂️",
+    "description": "A hierarchical carbonate reservoir benchmarking case study",
+    "link": "https://researchportal.hw.ac.uk/en/datasets/costa-model-hierarchical-carbonate-reservoir-benchmarking-case-st/",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "EarthChem",
+    "icon": "🗂️",
+    "description": "Community-driven preservation, discovery, access, and visualization of geochemical, geochronological, and petrological data",
+    "link": "https://www.earthchem.org/",
+    "category": "Data Repositories",
+    "tags": [
+      "data",
+      "repositories",
+      "datasets",
+      "open-data",
+      "catalog"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Basic Geoscience Cheat Sheet",
+    "icon": "🎓",
+    "description": "Cheat Sheet for Basic Geoscience",
+    "link": "https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d6fe4b0d158ed95fff0/1295033898443/Cheatsheet_basic.pdf",
+    "category": "Tutorials and Cheat Sheets",
+    "tags": [
+      "tutorials",
+      "cheat",
+      "sheets",
+      "learning",
+      "education",
+      "reference"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geophysics Cheat Sheet",
+    "icon": "🎓",
+    "description": "Cheat Sheet for Geophysics",
+    "link": "https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d70e4b0d158ed9603f5/1350658645407/Cheatsheet_geophysics.pdf",
+    "category": "Tutorials and Cheat Sheets",
+    "tags": [
+      "tutorials",
+      "cheat",
+      "sheets",
+      "learning",
+      "education",
+      "reference"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Petroleum Science Cheat Sheet",
+    "icon": "🎓",
+    "description": "Cheat Sheet for Petroleum Science",
+    "link": "https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d6fe4b0d158ed96019e/1323808738753/Cheatsheet_petroleum.pdf",
+    "category": "Tutorials and Cheat Sheets",
+    "tags": [
+      "tutorials",
+      "cheat",
+      "sheets",
+      "learning",
+      "education",
+      "reference"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Rock Physics Cheat Sheet",
+    "icon": "🎓",
+    "description": "Cheat Sheet for Rock Physics",
+    "link": "https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d6fe4b0d158ed960042/1374593568367/Cheatsheet_Rock_Physics.pdf",
+    "category": "Tutorials and Cheat Sheets",
+    "tags": [
+      "tutorials",
+      "cheat",
+      "sheets",
+      "learning",
+      "education",
+      "reference"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Project Pythia",
+    "icon": "🎓",
+    "description": "An education and training hub for the geoscientific Python community",
+    "link": "https://projectpythia.org/",
+    "category": "Tutorials and Cheat Sheets",
+    "tags": [
+      "tutorials",
+      "cheat",
+      "sheets",
+      "learning",
+      "education",
+      "reference"
+    ],
+    "stars": null
+  },
+  {
+    "name": "gio",
+    "icon": "🧰",
+    "description": "Geoscience file input and output functions for less-than standard data formats",
+    "link": "https://github.com/agile-geoscience/gio",
+    "category": "Miscellaneous",
+    "tags": [
+      "miscellaneous",
+      "utilities",
+      "productivity",
+      "tooling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Open Mining Format",
+    "icon": "🧰",
+    "description": "Versatile mining data standard",
+    "link": "https://omf.readthedocs.io/en/latest",
+    "category": "Miscellaneous",
+    "tags": [
+      "miscellaneous",
+      "utilities",
+      "productivity",
+      "tooling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Software Underground Slack",
+    "icon": "🧰",
+    "description": "Community connecting geo\\computing researchers",
+    "link": "https://softwareunderground.org",
+    "category": "Miscellaneous",
+    "tags": [
+      "miscellaneous",
+      "utilities",
+      "productivity",
+      "tooling"
+    ],
+    "stars": null
+  },
+  {
+    "name": "USGS Earth Explorer",
+    "icon": "🛰️",
+    "description": "Landsat (optical), declassified CORONA, Hyperion hyperspectral - extensive global archive with easy access and downloads",
+    "link": "https://earthexplorer.usgs.gov",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Sentinel / Copernicus Browser",
+    "icon": "🛰️",
+    "description": "Sentinel-2 (optical multispectral), Sentinel-1 (SAR) - free access and frequent updates via Copernicus Open Access Hub",
+    "link": "https://sentinel.esa.int",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NASA Earthdata Search",
+    "icon": "🛰️",
+    "description": "Land cover, atmosphere, cryosphere, and biosphere products - extensive NASA open data archive (registration required)",
+    "link": "https://search.earthdata.nasa.gov",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NOAA Data Access Viewer",
+    "icon": "🛰️",
+    "description": "Satellite, aerial imagery, and coastal LiDAR - ideal for coastal and elevation data applications",
+    "link": "https://coast.noaa.gov",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Maxar Open Data Program",
+    "icon": "🛰️",
+    "description": "High-resolution disaster imagery, stereo, elevation, and footprints - humanitarian and emergency response open data",
+    "link": "https://www.maxar.com/open-data",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Geo-Airbus Defense",
+    "icon": "🛰️",
+    "description": "SPOT, Pleiades (optical), TerraSAR-X (radar), and WorldDEM - optical and radar datasets for commercial and research use",
+    "link": "https://intelligence.airbus.com",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NASA Worldview",
+    "icon": "🛰️",
+    "description": "Interactive visualization of global scientific satellite data - near real-time and historical layers (>900 datasets)",
+    "link": "https://worldview.earthdata.nasa.gov",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NOAA CLASS (Comprehensive Large Array-data Stewardship System)",
+    "icon": "🛰️",
+    "description": "GOES / POES imagery, aerosols, ozone, and environmental data - long-term NOAA satellite data repository",
+    "link": "https://www.class.noaa.gov",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "ISRO Bhuvan (Indian Geo-Platform)",
+    "icon": "🛰️",
+    "description": "IRS, CartoSat, OceanSat, CartoDEM - Indian Earth observation datasets and analysis tools",
+    "link": "https://bhuvan.nrsc.gov.in",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "JAXA ALOS World 3D (AW3D30)",
+    "icon": "🛰️",
+    "description": "Global 30 m DSM/elevation derived from ALOS L-band radar - freely available global terrain model",
+    "link": "https://www.eorc.jaxa.jp",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "NOAA Digital Coast",
+    "icon": "🛰️",
+    "description": "Coastal imagery, elevation, radar, and socio-economic datasets - focused on coastal management applications",
+    "link": "https://coast.noaa.gov/digitalcoast",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "PROBA-V MEP (GeoViewer)",
+    "icon": "🛰️",
+    "description": "PROBA-V, SPOT-VGT, and METOP data - global vegetation and land surface monitoring",
+    "link": "https://proba-v-mep.esa.int",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Global Land Cover Facilities (GLCF)",
+    "icon": "🛰️",
+    "description": "Landsat, MODIS, and AVHRR global land cover and land use datasets - University of Maryland",
+    "link": "https://glcf.umd.edu",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "UNAVCO (SAR & Geodesy Data)",
+    "icon": "🛰️",
+    "description": "SAR, tectonic deformation, and geodesy data for Earth science - supports GPS, InSAR, and ground motion studies",
+    "link": "https://www.unavco.org",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "INPE (Brazil's National Institute for Space Research)",
+    "icon": "🛰️",
+    "description": "CBERS, ResourceSat, UK-DMC - optical Earth observation datasets focused on South America",
+    "link": "https://dgi.inpe.br",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": [
+      "earth",
+      "observation",
+      "satellite",
+      "data",
+      "remote-sensing",
+      "imagery",
+      "satellite-data"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Spatial",
+    "icon": "🔗",
+    "description": "Awesome list for geospatial, not specific to geoscience but significant overlap",
+    "link": "https://github.com/RoboDonut/awesome-spatial",
+    "category": "Related",
+    "tags": [
+      "related",
+      "community",
+      "resources",
+      "awesome-lists"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Open Climate Science",
+    "icon": "🔗",
+    "description": "Awesome list for atmospheric, ocean, climate, and hydrologic science",
+    "link": "https://github.com/pangeo-data/awesome-open-climate-science",
+    "category": "Related",
+    "tags": [
+      "related",
+      "community",
+      "resources",
+      "awesome-lists"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Coastal",
+    "icon": "🔗",
+    "description": "Awesome list for coastal engineers and scientists",
+    "link": "https://github.com/chrisleaman/awesome-coastal",
+    "category": "Related",
+    "tags": [
+      "related",
+      "community",
+      "resources",
+      "awesome-lists"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Earth Artificial Intelligence",
+    "icon": "🔗",
+    "description": "Awesome list for artificial intelligence use cases in Earth Science maintained by ESIP (<a href=\"https://wiki.esipfed.org/Main_Page\">Earth Science Information Partners</a>, which is an Earth science informatics community) Machine Learning Cluster",
+    "link": "https://github.com/ESIPFed/Awesome-Earth-Artificial-Intelligence",
+    "category": "Related",
+    "tags": [
+      "related",
+      "community",
+      "resources",
+      "awesome-lists"
+    ],
+    "stars": null
+  },
+  {
+    "name": "Open Geoscience",
+    "icon": "🔗",
+    "description": "Curated from repositories that make our lives as geoscientists, hackers, and data wranglers easier or just more awesome",
+    "link": "https://github.com/softwareunderground/awesome-open-geoscience",
+    "category": "Related",
+    "tags": [
+      "related",
+      "community",
+      "resources",
+      "awesome-lists"
+    ],
+    "stars": null
+  }
+]
