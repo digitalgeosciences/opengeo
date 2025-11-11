@@ -1,8 +1,8 @@
 {
-  "active": true,
+  "active": false,
   "variant": "info",
-  "title": "Open Geosciences Hub Incoming",
-  "message": "The website is currently under development.",
+  "title": "Notification:",
+  "message": "We're rebuilding Open Geosciences with richer discovery tools. Please contact us if you have any questions or early access requests.",
   "ctaText": "Contact us",
-  "ctaUrl": "mailto:info@digitalgeosciences.com"
+  "ctaUrl": "mailto:info@digitalgeosciences.com?subject=Open%20Geosciences%20Hub"
 }

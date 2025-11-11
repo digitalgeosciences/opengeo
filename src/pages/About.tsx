@@ -1,7 +1,35 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpen, Sparkles } from "lucide-react";
+import { BookOpen, Github, Sparkles } from "lucide-react";
+
+import contributors from "@/data/contributors.json";
+
+type Contributor = {
+  name: string;
+  role: string;
+  github: string;
+  avatar?: string;
+  from?: number;
+  to?: number | null;
+};
+
+const contributorList = contributors as Contributor[];
+
+const getInitials = (name: string) =>
+  name
+    .split(" ")
+    .filter(Boolean)
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+
+const formatTenure = (from?: number, to?: number | null) => {
+  if (!from) return null;
+  const end = typeof to === "number" ? to : "present";
+  return `${from} \u2013 ${end}`;
+};
 
 const About = () => {
   return (
@@ -70,6 +98,63 @@ const About = () => {
             </CardContent>
           </Card>
 
+          <Card className="border-border/50 shadow-sm">
+            <CardHeader>
+              <div className="flex items-center gap-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <Sparkles className="h-6 w-6" />
+                </div>
+                <div>
+                  <CardTitle className="text-2xl">Open Geosciences Team</CardTitle>
+                  <CardDescription>Maintainers and advocates keeping open geoscience thriving</CardDescription>
+                </div>
+              </div>
+            </CardHeader>
+
+            <CardContent>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {contributorList.map((person) => (
+                  <div key={person.github} className="rounded-lg border border-border/60 p-4">
+                    <div className="flex items-start gap-3">
+                      {person.avatar ? (
+                        <img
+                          src={person.avatar}
+                          alt={`${person.name} avatar`}
+                          className="h-12 w-12 rounded-full border border-border/60 object-cover"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full border border-border/60 bg-muted text-sm font-semibold text-muted-foreground">
+                          {getInitials(person.name)}
+                        </div>
+                      )}
+                      <div className="flex flex-1 items-start justify-between gap-3">
+                        <div>
+                          <p className="font-semibold text-foreground">{person.name}</p>
+                          <p className="text-sm text-muted-foreground">{person.role}</p>
+                          {formatTenure(person.from, person.to) && (
+                            <p className="mt-1 inline-flex items-center rounded-full border border-border/60 px-2 py-0.5 text-xs uppercase tracking-wide text-muted-foreground">
+                              {formatTenure(person.from, person.to)}
+                            </p>
+                          )}
+                        </div>
+                        <a
+                          href={person.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-border/60 text-muted-foreground transition hover:text-primary hover:border-primary"
+                          aria-label={`Visit ${person.name}'s GitHub profile`}
+                        >
+                          <Github className="h-4 w-4" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </main>
 

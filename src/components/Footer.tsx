@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { UserCircle } from "lucide-react";
+import { Layers, UserCircle } from "lucide-react";
 
 export const Footer = () => {
   const lastUpdatedISO = import.meta.env.VITE_LAST_UPDATED ?? __BUILD_DATE__ ?? "";
@@ -17,7 +17,15 @@ export const Footer = () => {
         <div className="max-w-5xl mx-auto space-y-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-[2fr,1fr,1fr]">
             <div className="space-y-3">
-              <h3 className="font-semibold text-foreground">About Open Geosciences</h3>
+              <div className="flex items-center gap-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+                  <Layers className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground">Open Geosciences</h3>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Explore open-source geoscience tools</p>
+                </div>
+              </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 A living index of open geoscience software, datasets, and courses that keeps researchers, educators, and
                 students aligned on the latest collaborative tools.

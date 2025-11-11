@@ -5,9 +5,10 @@ An open catalogue of geoscience software, datasets, and learning material design
 ## Features
 
 - **Curated tool cards** with icons, descriptions, category filters, and enriched tag metadata sourced from `src/data/tools.json`.
+- **Announcement + contributor data** configured via JSON (`src/data/announcement.json`, `src/data/contributors.json`) so editors can update copy or rosters without shipping new code.
 - **Responsive UI** built with Tailwind CSS and shadcn components for consistent theming and accessibility.
 - **Light/Dark modes** managed via `next-themes`, with a toggle in the site header and light mode as the default.
-- **Contribution & contact workflows** backed by configurable endpoints so submissions flow into your preferred review process.
+- **Community workflows** that route contributions through GitHub Discussions and send contact requests via a simple mailto handoff.
 
 ## Tech Stack
 
@@ -39,17 +40,13 @@ The development server runs at `http://localhost:5173/` by default.
 
 ### Environment Variables
 
-Forms submit to a Google Apps Script (or any HTTPS endpoint) defined by `VITE_GOOGLE_SCRIPT_URL`. Create a `.env.local` (or `.env`) file in the project root:
+The current build does not require any mandatory env vars. Optional values:
 
-```bash
-VITE_GOOGLE_SCRIPT_URL=https://script.google.com/macros/s/XXXXXXXXXXXX/exec
-```
+| Variable | Purpose | Example |
+| --- | --- | --- |
+| `VITE_LAST_UPDATED` | Overrides the build timestamp shown in the footer | `2025-02-15` |
 
-Guidelines:
-
-- The endpoint must accept a `POST` with JSON and return a `2xx` response (or an opaque success) so the UI can surface the "thanks for contributing" state. Any other response body is streamed back to the user as an error message.
-- For local testing without a production Apps Script you can point to https://webhook.site or a simple Express/Cloudflare Worker echo endpoint to inspect payloads.
-- Need to exercise the form from another device? Run `npm run dev -- --host 0.0.0.0 --port 5173` so Vite binds to your LAN IP while still forwarding submissions to your configured script URL.
+Add optional values inside `.env.local` if you want to control footer copy during local builds.
 
 ## Project Structure
 
@@ -57,7 +54,7 @@ Guidelines:
 src/
   App.tsx             # App shell & routing
   components/         # Reusable UI (Header, Footer, ThemeToggle, etc.)
-  data/tools.json     # Catalogue source data
+  data/               # Static JSON (tools, announcement, contributors)
   pages/              # Route components (Index, About, Contribute, Contact)
   index.css           # Theme tokens (light & dark)
   lib/                # Helper utilities
@@ -106,12 +103,15 @@ Additional tips:
 
 ## Contributing
 
+**Fast path (no code):** Use the in-app **Contribute** page, which links to the public [GitHub Discussions](https://github.com/digitalgeosciences/opengeo/discussions) board. Start a new topic with tool details, links, maintainer info, and suggested tags.
+
+**Code/data contributions:**
 1. Fork/clone this repository.
 2. Create a branch for your update (`feat/new-tool`, `fix/layout`, etc.).
-3. Update the relevant data or components.
+3. Update the relevant JSON data (`src/data/*.json`) or components.
 4. Run `npm run lint` and `npm run build` before opening a PR.
 
-You can also use the in-app **Contribute** page to submit new tools or updates if you prefer a form-based workflow.
+For private/sensitive topics, email `info@digitalgeosciences.com` (also available on the Contact page).
 
 ## Acknowledgements
 
