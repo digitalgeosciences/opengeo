@@ -54,7 +54,7 @@ const About = () => {
                   <BookOpen className="h-6 w-6" />
                 </div>
                 <div>
-                  <CardTitle className="text-2xl">About Open Geosciences</CardTitle>
+                  <CardTitle className="text-2xl">About OpenGeo</CardTitle>
                   <CardDescription>Connecting people, tools, and open knowledge</CardDescription>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const About = () => {
               <p>
                 Geoscience research and education are in the middle of a transformational moment. Powerful new sensing
                 technologies, cloud platforms, and unprecedented data access are reshaping how we explore the subsurface
-                and understand Earth systems. Open Geosciences—also known as open-geo—was created to support that shift.
+                and understand Earth systems. OpenGeo geo—was created to support that shift.
                 It curates an evolving catalogue of open-source software, datasets, and learning materials so that
                 anyone, from first-year students to senior researchers, can leverage modern workflows without licensing
                 barriers.
@@ -72,12 +72,12 @@ const About = () => {
               <p>
                 This initiative emphasizes open access, reproducibility, and community collaboration. The resources you
                 browse on this site span interactive teaching notebooks, processing pipelines, numerical modeling
-    tools, and entire curricula designed by educators who share their work openly. By highlighting these projects, we
+                tools, and entire curricula designed by educators who share their work openly. By highlighting these projects, we
                 aim to empower people everywhere to experiment, learn, and contribute back to the broader geoscience
                 commons.
               </p>
               <p>
-                Open Geosciences is inspired by the seminal compilation from
+                OpenGeo is inspired by the seminal compilation from
                 Gosses et&nbsp;al. (2023),{" "}
                 <a
                   href="https://doi.org/10.5281/zenodo.8354180"
@@ -93,17 +93,31 @@ const About = () => {
                 our field.
               </p>
               <p className="text-sm text-muted-foreground">
-                More about this stewardship is captured by{" "}
+                This initiative builds on the principles of open stewardship, as detailed in{" "}
                 <a
                   href="https://qubalee.github.io/posts/2025/04/open-geosciences/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary underline-offset-2 hover:underline"
                 >
-                  Alqubalee (2025), Open Geosciences
+                  Alqubalee (2025), <em>Open Geosciences</em>
                 </a>
-                , which outlines Digital Geoscience's commitment to maintaining and refreshing the list for the community.
+                . That work outlines <strong>Digital Geoscience’s</strong> ongoing commitment to curating, maintaining, and refreshing this collection for the global geoscience community.
               </p>
+
+              <p className="text-sm text-muted-foreground mt-2">
+                To learn more about the vision and purpose behind this platform, read{" "}
+                <a
+                  href="https://qubalee.github.io/posts/2025/11/opengeo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline-offset-2 hover:underline"
+                >
+                  Alqubalee (2025), <em>OpenGeo: The Open-Source Hub for Geoscientists</em>
+                </a>
+                .
+              </p>
+
             </CardContent>
           </Card>
 
@@ -114,7 +128,7 @@ const About = () => {
                   <Sparkles className="h-6 w-6" />
                 </div>
                 <div>
-                  <CardTitle className="text-2xl">Open Geosciences Team</CardTitle>
+                  <CardTitle className="text-2xl">OpenGeo Team</CardTitle>
                   <CardDescription>Maintainers and advocates keeping open geoscience thriving</CardDescription>
                 </div>
               </div>
