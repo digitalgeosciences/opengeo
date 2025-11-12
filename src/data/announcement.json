@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "variant": "info",
   "title": "Notification:",
   "message": "Welcome to OpenGeo! We're excited to have you on board. We're currently putting the finishing touches on the platform.",

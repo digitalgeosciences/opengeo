@@ -84,6 +84,14 @@ const Index = () => {
     setVisibleCount(INITIAL_VISIBLE);
   };
 
+  const handleInlineTagSelect = useCallback(
+    (tag: string) => {
+      setSelectedTag(tag);
+      setShowTags(true);
+    },
+    [],
+  );
+
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center text-muted-foreground">
@@ -178,7 +186,7 @@ const Index = () => {
         {/* Unified Grid */}
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
           {visibleTools.map((tool, i) => (
-            <ToolCard key={`${tool.name}-${i}`} {...tool} />
+            <ToolCard key={`${tool.name}-${i}`} {...tool} onTagSelect={handleInlineTagSelect} />
           ))}
         </div>
 
