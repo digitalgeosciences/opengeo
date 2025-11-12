@@ -5,6 +5,18 @@
     "github": "https://github.com/qubalee",
     "avatar": "https://avatars.githubusercontent.com/qubalee",
     "from": 2025,
-    "to": null
+    "fromMonth": "November",
+    "to": null,
+    "toMonth": null
+  },
+    {
+    "name": "Dr. Paul Cleverley",
+    "role": "Evaluator",
+    "github": "https://github.com/PCleverleyGeolee",
+    "avatar": "https://avatars.githubusercontent.com/PCleverleyGeolee",
+    "from": 2025,
+    "fromMonth": "November",
+    "to": null,
+    "toMonth": null
   }
 ]

@@ -11,7 +11,9 @@ type Contributor = {
   github: string;
   avatar?: string;
   from?: number;
+  fromMonth?: string;
   to?: number | null;
+  toMonth?: string | null;
 };
 
 const contributorList = contributors as Contributor[];
@@ -25,10 +27,17 @@ const getInitials = (name: string) =>
     .slice(0, 2)
     .toUpperCase();
 
-const formatTenure = (from?: number, to?: number | null) => {
-  if (!from) return null;
-  const end = typeof to === "number" ? to : "present";
-  return `${from} \u2013 ${end}`;
+const formatTenure = (person: Contributor) => {
+  if (!person.from) return null;
+  const startMonth = person.fromMonth ? `${person.fromMonth} ` : "";
+  const start = `${startMonth}${person.from}`;
+
+  if (typeof person.to === "number") {
+    const endMonth = person.toMonth ? `${person.toMonth} ` : "";
+    return `${start} \u2013 ${endMonth}${person.to}`;
+  }
+
+  return `${start} \u2013 present`;
 };
 
 const About = () => {
@@ -133,9 +142,9 @@ const About = () => {
                         <div>
                           <p className="font-semibold text-foreground">{person.name}</p>
                           <p className="text-sm text-muted-foreground">{person.role}</p>
-                          {formatTenure(person.from, person.to) && (
+                          {formatTenure(person) && (
                             <p className="mt-1 inline-flex items-center rounded-full border border-border/60 px-2 py-0.5 text-xs uppercase tracking-wide text-muted-foreground">
-                              {formatTenure(person.from, person.to)}
+                              {formatTenure(person)}
                             </p>
                           )}
                         </div>
