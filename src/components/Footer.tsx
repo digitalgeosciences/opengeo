@@ -22,7 +22,7 @@ export const Footer = () => {
                   <Layers className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground">Open Geosciences</h3>
+                  <h3 className="text-lg font-semibold text-foreground">OpenGeo</h3>
                   <p className="text-xs uppercase tracking-wide text-muted-foreground">Explore open-source geoscience tools</p>
                 </div>
               </div>

@@ -16,7 +16,7 @@ export const Header = () => {
                   <Layers className="h-6 w-6" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-foreground">Open Geosciences</h1>
+                  <h1 className="text-xl font-bold text-foreground">OpenGeo</h1>
                   <p className="text-xs text-muted-foreground">Explore open-source geoscience tools</p>
                 </div>
               </Link>

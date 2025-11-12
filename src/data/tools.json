@@ -1166,8 +1166,8 @@
   {
     "name": "GRASS-GIS",
     "icon": "🗺️",
-    "description": "GIS platform for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization",
-    "link": "https://grass-tutorials.osgeo.org/",
+    "description": "Open-source GIS platform for geospatial data management and analysis, image processing, cartography, spatial modeling, and visualization",
+    "link": "https://grass.osgeo.org/",
     "category": "Geospatial",
     "tags": [
       "geospatial",
@@ -1682,7 +1682,7 @@
     "name": "Webviz",
     "icon": "💻",
     "description": "Webviz is a wrapper on top of Dash from Plotly which encourages making reusable data visualisation components and dashboards",
-    "link": "https://github.com/equinor/webviz-config",
+    "link": "https://github.com/equinor/webviz-core-components",
     "category": "Platforms",
     "tags": [
       "platforms",
@@ -1693,10 +1693,10 @@
     "stars": null
   },
   {
-    "name": "Webviz-subsurface",
+    "name": "Webviz-subsurface-components",
     "icon": "💻",
     "description": "Webviz-subsurface contains subsurface specific standard webviz containers, which are used as plugins in webviz-config",
-    "link": "https://github.com/equinor/webviz-subsurface",
+    "link": "https://github.com/equinor/webviz-subsurface-components",
     "category": "Platforms",
     "tags": [
       "platforms",
