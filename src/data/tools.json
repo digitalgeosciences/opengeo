@@ -2451,5 +2451,203 @@
       "awesome-lists"
     ],
     "stars": null
+  },
+  {
+    "name": "Geospatial Data Science with Julia",
+    "icon": "📘",
+    "description": "Introductory open-access book on geospatial data science with the Julia programming language.",
+    "link": "https://juliaearth.github.io/geospatial-data-science-with-julia",
+    "category": "Open Books",
+    "tags": ["open-access", "geospatial", "julia", "data-science", "education"],
+    "stars": null
+  },
+  {
+    "name": "Geocomputation with Python",
+    "icon": "📘",
+    "description": "Open-access book on reproducible geographic data analysis with open source software.",
+    "link": "https://py.geocompx.org/",
+    "category": "Open Books",
+    "tags": ["open-access", "geospatial", "python", "geocomputation", "education"],
+    "stars": null
+  },
+  {
+    "name": "Geocomputation with R",
+    "icon": "📘",
+    "description": "Open-access book on geographic data analysis, visualization, and modeling using R.",
+    "link": "https://r.geocompx.org/",
+    "category": "Open Books",
+    "tags": ["open-access", "geospatial", "r", "geocomputation", "education"],
+    "stars": null
+  },
+  {
+    "name": "Applied Geostatistics in Python: a Hands-on Guide with GeostatsPy",
+    "icon": "📘",
+    "description": "Hands-on open textbook for geostatistics in Python using GeostatsPy.",
+    "link": "https://geostatsguy.github.io/GeostatsPyDemos_Book/intro.html",
+    "category": "Open Books",
+    "tags": ["open-access", "geostatistics", "python", "education"],
+    "stars": null
+  },
+  {
+    "name": "Applied Machine Learning in Python: A Hands-on Guide with Code",
+    "icon": "📘",
+    "description": "Open-access e-book on machine learning applications in Python for geoscientists.",
+    "link": "https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html",
+    "category": "Open Books",
+    "tags": ["open-access", "machine-learning", "python", "education"],
+    "stars": null
+  },
+  {
+    "name": "QGIS in Mineral Exploration",
+    "icon": "📘",
+    "description": "Open-access manual on QGIS applications for mapping and geoscientific tasks in mineral exploration.",
+    "link": "https://qgis-in-mineral-exploration.readthedocs.io/en/latest/",
+    "category": "Open Books",
+    "tags": ["open-access", "qgis", "mapping", "mineral-exploration", "education"],
+    "stars": null
+  },
+  {
+    "name": "Introduction to Modern Statistics",
+    "icon": "📘",
+    "description": "Freely available textbook introducing modern statistics and data science concepts.",
+    "link": "https://openintro-ims.netlify.app/",
+    "category": "Open Books",
+    "tags": ["open-access", "statistics", "data-science", "education"],
+    "stars": null
+  },
+  {
+    "name": "Geo-Python",
+    "icon": "📘",
+    "description": "Free and open Python programming course for geoscientific data analysis.",
+    "link": "https://geo-python-site.readthedocs.io/en/latest/",
+    "category": "Open Books",
+    "tags": ["open-access", "python", "geoscience", "education"],
+    "stars": null
+  },
+  {
+    "name": "Automating GIS Processes",
+    "icon": "📘",
+    "description": "Open-access course introducing geographic data analysis and automation using Python.",
+    "link": "https://autogis-site.readthedocs.io/en/latest/",
+    "category": "Open Books",
+    "tags": ["open-access", "python", "gis", "automation", "education"],
+    "stars": null
+  },
+  {
+    "name": "IntroQG",
+    "icon": "📘",
+    "description": "Open-access quantitative geology course from the University of Helsinki.",
+    "link": "https://introqg-site.readthedocs.io/en/latest/",
+    "category": "Open Books",
+    "tags": ["open-access", "geology", "education"],
+    "stars": null
+  },
+  {
+    "name": "Machine Learning in the Geosciences",
+    "icon": "📘",
+    "description": "Open-access book introducing machine learning applications in geoscience.",
+    "link": "https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html",
+    "category": "Open Books",
+    "tags": ["open-access", "machine-learning", "geoscience", "education"],
+    "stars": null
+  },
+  {
+    "name": "USGS ADR",
+    "icon": "💾",
+    "description": "USGS-approved open repositories for scientific data preservation.",
+    "link": "https://www.usgs.gov/office-of-science-quality-and-integrity/acceptable-digital-repositories-usgs-scientific",
+    "category": "Research Data",
+    "tags": ["open-access", "usgs", "data", "repository"],
+    "stars": null
+  },
+  {
+    "name": "SGS NGD",
+    "icon": "💾",
+    "description": "Saudi Geological Survey open-access geoscience data portal.",
+    "link": "https://ngdp.sgs.gov.sa/ngp/",
+    "category": "Research Data",
+    "tags": ["open-access", "data", "geoscience", "repository"],
+    "stars": null
+  },
+  {
+    "name": "NASA Datasets",
+    "icon": "💾",
+    "description": "NASA open datasets for climate, atmosphere, and Earth sciences.",
+    "link": "https://data.giss.nasa.gov/",
+    "category": "Research Data",
+    "tags": ["open-access", "nasa", "data", "earth-science"],
+    "stars": null
+  },
+  {
+    "name": "OneGeology",
+    "icon": "🧰",
+    "description": "Global open-access geological data portal integrating national geological maps.",
+    "link": "https://portal.onegeology.org/OnegeologyGlobal/",
+    "category": "Research Tools",
+    "tags": ["open-access", "geology", "maps", "global"],
+    "stars": null
+  },
+  {
+    "name": "Eye on the Earth",
+    "icon": "🧰",
+    "description": "NASA visualization platform showing near-real-time global Earth observation data.",
+    "link": "https://eyes.nasa.gov/apps/earth/#/",
+    "category": "Research Tools",
+    "tags": ["education", "visualization", "nasa", "limited-open"],
+    "stars": null
+  },
+  {
+    "name": "Earthviewer",
+    "icon": "🧰",
+    "description": "Interactive educational tool visualizing Earth's geological history.",
+    "link": "https://media.hhmi.org/biointeractive/earthviewer_web/earthviewer.html",
+    "category": "Research Tools",
+    "tags": ["education", "geology", "visualization", "limited-open"],
+    "stars": null
+  },
+  {
+    "name": "CCS Map",
+    "icon": "🧰",
+    "description": "Global carbon capture and storage project map with limited open access.",
+    "link": "https://www.sccs.org.uk/resources/global-ccs-map",
+    "category": "Research Tools",
+    "tags": ["carbon", "capture", "storage", "limited-open"],
+    "stars": null
+  },
+  {
+    "name": "Data Sci Python",
+    "icon": "🎓",
+    "description": "YouTube playlist introducing data science in Python for geoscientists.",
+    "link": "https://www.youtube.com/playlist?list=PLG19vXLQHvSDy26fM3hDLg3VCU7U5BGZl",
+    "category": "Learning Resources",
+    "tags": ["youtube", "education", "data-science", "python"],
+    "stars": null
+  },
+  {
+    "name": "Data Analytics",
+    "icon": "🎓",
+    "description": "YouTube playlist for learning applied data analytics techniques.",
+    "link": "https://www.youtube.com/playlist?list=PLG19vXLQHvSB-D4XKYieEku9GQMQyAzjJ",
+    "category": "Learning Resources",
+    "tags": ["youtube", "education", "data-analytics"],
+    "stars": null
+  },
+  {
+    "name": "Virtual Microscope",
+    "icon": "🎓",
+    "description": "Online interactive petrology and mineralogy microscope educational tool.",
+    "link": "https://virtualmicroscope.org/collections",
+    "category": "Learning Resources",
+    "tags": ["education", "geology", "virtual-lab"],
+    "stars": null
+  },
+  {
+    "name": "Automated Mineralogy Lab at CPG",
+    "icon": "🧪",
+    "description": "Educational and research-focused lab showcasing open mineralogy methods and QEMSCAN work.",
+    "link": "https://aml.qubalee.com",
+    "category": "Research Labs",
+    "tags": ["education", "research", "mineralogy", "limited-open"],
+    "stars": null
   }
 ]
