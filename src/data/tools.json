@@ -1166,8 +1166,8 @@
   {
     "name": "GRASS-GIS",
     "icon": "🗺️",
-    "description": "GIS platform, see [Platforms](#platforms)",
-    "link": "#platforms",
+    "description": "GIS platform for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization",
+    "link": "https://grass-tutorials.osgeo.org/",
     "category": "Geospatial",
     "tags": [
       "geospatial",
