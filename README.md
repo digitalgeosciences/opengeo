@@ -1,4 +1,4 @@
-# Open Geosciences
+# OpenGeo
 
 An open catalogue of geoscience software, datasets, and learning material designed to help researchers, educators, and practitioners find modern, open-source tools. This repository hosts the Vite + React front-end that powers [Digital Geoscience's](https://digitalgeosciences.com/) public directory.
 
@@ -115,7 +115,7 @@ For private/sensitive topics, email `info@digitalgeosciences.com` (also availabl
 
 ## Acknowledgements
 
-Open Geosciences is inspired by the community-maintained [softwareunderground/awesome-open-geoscience](https://doi.org/10.5281/zenodo.8354180) list compiled by Justin Gosses, Jesper Dramsch, Evan Bianco, Dieter Werthmueller, Andrew Moodie, Bane Sullivan, Matteo Niccoli, Leonardo Uieda, and many other contributors. Their work laid the foundation for this catalogue.
+OpenGeos is inspired by the community-maintained [softwareunderground/awesome-open-geoscience](https://doi.org/10.5281/zenodo.8354180) list compiled by Justin Gosses, Jesper Dramsch, Evan Bianco, Dieter Werthmueller, Andrew Moodie, Bane Sullivan, Matteo Niccoli, Leonardo Uieda, and many other contributors. Their work laid the foundation for this catalogue.
 
 ## License
 
