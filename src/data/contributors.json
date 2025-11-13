@@ -8,5 +8,15 @@
     "fromMonth": "November",
     "to": null,
     "toMonth": null
+  },
+    {
+    "name": "Dr. Paul Cleverley",
+    "role": "Evaluator",
+    "github": "https://github.com/PCleverleyGeolee",
+    "avatar": "https://avatars.githubusercontent.com/PCleverleyGeolee",
+    "from":,
+    "fromMonth": "Waiting to confirm",
+    "to":,
+    "toMonth":
   }
 ]
