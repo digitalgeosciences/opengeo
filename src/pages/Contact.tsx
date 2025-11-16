@@ -13,7 +13,7 @@ const Contact = () => {
       <Header />
 
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1">
-        <div className="mx-auto flex max-w-3xl flex-col gap-6">
+        <div className="mx-auto flex max-w-4xl flex-col gap-6">
           <Card className="border-border/50 shadow-sm">
             <CardHeader className="space-y-3">
               <div className="flex items-center gap-3">
@@ -21,7 +21,7 @@ const Contact = () => {
                   <MessageSquareShare className="h-6 w-6" />
                 </div>
                 <div>
-                  <CardTitle className="text-2xl">Contact the Open Geosciences Team</CardTitle>
+                  <CardTitle className="text-2xl">Contact the OpenGeo Team</CardTitle>
                   <CardDescription>
                     Questions, data corrections, or partnership ideas? Email us directly and we'll get back within two
                     business days.

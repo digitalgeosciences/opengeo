@@ -83,6 +83,7 @@ Tool data lives in `src/data/tools.json`. Each entry contains:
 | `link` | Yes | Public landing page or repo URL; must include the protocol. |
 | `category` | Yes | Choose from the existing values in `src/data/tools.json`. If you introduce a new category, audit the UI so filters and navigation incorporate it. |
 | `tags` | At least one | Lowercase strings used for the tag filter on the Index page. |
+| `dynamic` | Optional | `true` renders a blue badge with a check mark, `false` renders a gray badge with “=” to indicate nondynamic; omit the field to hide the badge. |
 | `stars` | Optional | Number of GitHub stars or `null` to hide the metric (currently unused but reserved for future surfacing). |
 
 ## Available Scripts

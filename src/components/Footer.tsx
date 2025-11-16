@@ -70,9 +70,9 @@ export const Footer = () => {
           </div>
 
           <div className="border-t border-border/40 pt-4">
-            <div className="flex flex-col items-center gap-2 text-center text-sm text-muted-foreground md:flex-row md:justify-between md:text-left">
-              <p className="flex items-center justify-center gap-1">
-                Built and maintained by{" "}
+            <div className="flex flex-col items-center gap-2 text-center md:flex-row md:justify-between md:text-left">
+              <p className="flex items-center justify-center gap-1 flex-wrap text-xs text-muted-foreground">
+                Powered and Maintained by{" "}
                 <a
                   href="https://digitalgeosciences.com/"
                   target="_blank"

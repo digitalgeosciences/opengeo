@@ -13,7 +13,11 @@ interface Tool {
   link: string;
   category: string;
   tags: string[];
-  stars: number | null;
+  dynamic?: boolean;
+  by?: {
+    name: string;
+    url?: string | null;
+  }[];
 }
 
 const loadTools = async (): Promise<Tool[]> => {
@@ -22,7 +26,7 @@ const loadTools = async (): Promise<Tool[]> => {
 };
 
 const Index = () => {
-  const INITIAL_VISIBLE = 20;
+  const INITIAL_VISIBLE = 30;
   const PAGE_SIZE = 20;
 
   const [tools, setTools] = useState<Tool[]>([]);
@@ -108,7 +112,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
 
-      <main className="container mx-auto px-4 pt-8 pb-6 sm:pb-8 flex-1">
+      <main className="container mx-auto px-4 pt-8 pb-4 sm:pb-6 flex-1">
         {/* Search + Filter Section */}
         <div className="max-w-5xl mx-auto space-y-5">
           <div className="flex flex-col gap-3 text-center">
@@ -184,7 +188,7 @@ const Index = () => {
         </div>
 
         {/* Unified Grid */}
-        <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="mt-6 mb-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
           {visibleTools.map((tool, i) => (
             <ToolCard key={`${tool.name}-${i}`} {...tool} onTagSelect={handleInlineTagSelect} />
           ))}
@@ -192,7 +196,7 @@ const Index = () => {
 
         {/* Show More / Less */}
         {(canShowMore || canShowLess) && (
-          <div className="flex justify-center mt-6 mb-4 gap-3">
+          <div className="flex justify-center gap-3">
             {canShowMore && (
               <Button variant="outline" size="sm" onClick={handleShowMore}>
                 Show More

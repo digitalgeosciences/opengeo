@@ -6,6 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 
 const discussionUrl = "https://github.com/digitalgeosciences/opengeo/discussions";
+const addOpenGeoUrl =
+  "https://github.com/orgs/digitalgeosciences/discussions/new?category=-addopengeo";
 
 const Contribute = () => {
   return (
@@ -40,11 +42,26 @@ const Contribute = () => {
                 </ol>
               </div>
 
-              <Button asChild size="lg" className="w-full sm:w-auto">
-                <a href={discussionUrl} target="_blank" rel="noreferrer">
-                  Visit GitHub Discussions
-                </a>
-              </Button>
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                <Button
+                  asChild
+                  variant="default"
+                  size="lg"
+                  className="w-full sm:w-auto bg-gradient-to-r from-primary/90 via-primary/70 to-sky-500 text-white shadow-lg"
+                >
+                  <a href={addOpenGeoUrl} target="_blank" rel="noreferrer">
+                    AddOpenGeo
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                  <a href={discussionUrl} target="_blank" rel="noreferrer">
+                    Visit GitHub Discussions
+                  </a>
+                </Button>
+              </div>
+              <p className="text-sm font-semibold text-primary">
+                AddOpenGeo is the featured channel for new listings; it gets priority review and a special badge.
+              </p>
 
               <p className="text-xs text-muted-foreground">
                 Need a private channel instead? Email us at{" "}

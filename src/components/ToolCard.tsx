@@ -1,4 +1,4 @@
-import { KeyboardEvent } from "react";
+﻿import { KeyboardEvent } from "react";
 import {
   Card,
   CardContent,
@@ -7,7 +7,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, CheckCircle2, PauseCircle } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface ToolCardProps {
   name: string;
@@ -15,6 +16,11 @@ interface ToolCardProps {
   description: string;
   link: string;
   tags: string[];
+  by?: {
+    name: string;
+    url?: string | null;
+  }[];
+  dynamic?: boolean;
   onTagSelect?: (tag: string) => void;
 }
 
@@ -24,7 +30,9 @@ export const ToolCard = ({
   description,
   link,
   tags,
+  by,
   onTagSelect,
+  dynamic,
 }: ToolCardProps) => {
   const hostname = (() => {
     try {
@@ -45,8 +53,33 @@ export const ToolCard = ({
     }
   };
 
+  const status =
+    dynamic === true
+      ? {
+          icon: (
+            <CheckCircle2
+              className="h-4 w-4 text-blue-500"
+              aria-hidden="true"
+            />
+          ),
+          className: "bg-background/80 shadow-sm",
+          aria: "Actively enhanced tool",
+        }
+      : dynamic === false
+      ? {
+          icon: (
+            <PauseCircle
+              className="h-4 w-4 text-gray-500"
+              aria-hidden="true"
+            />
+          ),
+          className: "bg-background/80 shadow-sm",
+          aria: "Archived tool",
+        }
+      : null;
+
   return (
-    <Card className="group h-full transition-all duration-300 hover:shadow-md hover:scale-[1.01] border-border/50 hover:border-primary/40 rounded-xl">
+    <Card className="relative group h-full transition-all duration-300 hover:shadow-md hover:scale-[1.01] border-border/50 hover:border-primary/40 rounded-xl">
       {/* Header */}
       <CardHeader className="p-3 pb-2">
         <a
@@ -79,6 +112,38 @@ export const ToolCard = ({
           {description}
         </CardDescription>
 
+        {by?.length ? (
+          <div className="text-[10px] text-muted-foreground flex flex-wrap items-center gap-1">
+            <span className="text-[10px] font-semibold text-foreground/80">Added by:</span>
+            {by.map((author, idx) => {
+              const label = author.name?.trim() || "Unknown author";
+              const key = `${label}-${idx}`;
+              const content = author.url ? (
+                <a
+                  href={author.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                  onClick={(event) => event.stopPropagation()}
+                >
+                  {label}
+                </a>
+              ) : (
+                <span className="text-foreground/80">{label}</span>
+              );
+
+              return (
+                <span key={key} className="flex items-center gap-1">
+                  {content}
+                  {idx < by.length - 1 && (
+                    <span className="text-muted-foreground">,</span>
+                  )}
+                </span>
+              );
+            })}
+          </div>
+        ) : null}
+
         {tags?.length > 0 && (
           <div className="flex flex-wrap gap-1.5">
             {tags.slice(0, 3).map((tag, idx) => (
@@ -101,6 +166,18 @@ export const ToolCard = ({
           </div>
         )}
       </CardContent>
+      {status && (
+        <span
+          className={cn(
+            "absolute bottom-3 right-3 rounded-full px-2 py-0.5 text-xs uppercase tracking-wide flex items-center justify-center",
+            status.className,
+          )}
+          aria-label={status.aria}
+          title={status.aria}
+        >
+          {status.icon}
+        </span>
+      )}
     </Card>
   );
 };
