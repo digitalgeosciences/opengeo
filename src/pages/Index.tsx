@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import { Header } from "@/components/Header";
 import { ToolCard } from "@/components/ToolCard";
 import { Footer } from "@/components/Footer";
-import { Filter, X } from "lucide-react";
+import { Filter, X, ChevronDown, ChevronUp } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
@@ -26,7 +26,7 @@ const loadTools = async (): Promise<Tool[]> => {
 };
 
 const Index = () => {
-  const INITIAL_VISIBLE = 30;
+  const INITIAL_VISIBLE = 20;
   const PAGE_SIZE = 20;
 
   const [tools, setTools] = useState<Tool[]>([]);
@@ -198,12 +198,14 @@ const Index = () => {
         {(canShowMore || canShowLess) && (
           <div className="flex justify-center gap-3">
             {canShowMore && (
-              <Button variant="outline" size="sm" onClick={handleShowMore}>
+              <Button variant="outline" size="sm" onClick={handleShowMore} className="flex items-center gap-1">
+                <ChevronDown className="w-4 h-4" />
                 Show More
               </Button>
             )}
             {canShowLess && (
-              <Button variant="outline" size="sm" onClick={handleShowLess}>
+              <Button variant="outline" size="sm" onClick={handleShowLess} className="flex items-center gap-1">
+                <ChevronUp className="w-4 h-4" />
                 Show Less
               </Button>
             )}
