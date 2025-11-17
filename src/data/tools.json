@@ -3812,5 +3812,104 @@
     "category": "Earth Observation and Satellite Data Portals",
     "tags": ["development", "infrastructure", "environment", "world-bank", "data"],
     "stars": null
+  },
+    {
+    "name": "World Bank Data Catalog",
+    "icon": "🛰️",
+    "description": "Shapefile datasets on global development, urbanization, infrastructure, and environmental statistics.",
+    "link": "https://datacatalog.worldbank.org/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["development", "infrastructure", "environment", "world-bank", "data"],
+    "stars": null
+  },
+    {
+    "name": "Kimberlite Indicator Mineral Chemistry Plots (from CSV)",
+    "icon": "⚒️",
+    "description": "A web-based interactive tool for plotting kimberlite indicator-mineral chemistry from CSV input.",
+    "link": "https://atamaianalytics.shinyapps.io/KIM_Plots_csv/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["indicator-minerals", "kimberlite", "geochemistry", "interactive-plots"],
+    "stars": null
+  },
+  {
+    "name": "Kimberlite Indicator Mineral Chemistry Plots – from ODBC",
+    "icon": "⚒️",
+    "description": "A web-based interactive tool by Atamai Analytics for plotting kimberlite indicator mineral chemistry by connecting via ODBC to database sources.",
+    "link": "https://atamaianalytics.shinyapps.io/KIM_Plots_ODBC/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["indicator-minerals", "kimberlite", "geochemistry", "ODBC-data-source"],
+    "stars": null
+  },
+  {
+    "name": "Structure Calculations from Drill Core",
+    "icon": "⚒️",
+    "description": "An interactive web tool for calculating structural orientations (dip, strike, alpha-beta) from drill core data.",
+    "link": "https://atamaianalytics.shinyapps.io/StructureCalculations/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["oriented-core", "structural-geology", "drill-core-analysis", "alpha-beta-angles"],
+    "stars": null
+  },
+  {
+    "name": "Mineral Exploration Geochemistry – Data Analysis Tools",
+    "icon": "⚒️",
+    "description": "An interactive web tool by Atamai Analytics for analysing and visualising mineral-exploration geochemistry datasets.",
+    "link": "https://atamaianalytics.shinyapps.io/MineralExplorationGeochemistry/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["exploration-geochemistry", "data-analysis", "visualisation", "mineral-exploration"],
+    "stars": null
+  },
+  {
+    "name": "Drillhole Spatial Validation",
+    "icon": "🧭",
+    "description": "A web-based application by Atamai Analytics for validating spatial integrity of drillhole data (collars, surveys, intervals).",
+    "link": "https://atamaianalytics.shinyapps.io/DrillholeSpaitalValidation/",
+    "category": "Geospatial Analysis and Processing",
+    "tags": ["drillhole", "validation", "spatial-data", "geoscience"],
+    "stars": null
+  },
+  {
+    "name": "Simple Interpolation",
+    "icon": "🧭",
+    "description": "An interactive web tool by Atamai Analytics for performing spatial interpolation on geoscience point data.",
+    "link": "https://atamaianalytics.shinyapps.io/Interpolation/",
+    "category": "Geospatial Analysis and Processing",
+    "tags": ["interpolation", "spatial-analysis", "geoscience", "point-data"],
+    "stars": null
+  },
+  {
+    "name": "Imago Image Metrics and Statistics – Demo",
+    "icon": "🛰️",
+    "description": "A demo web tool by Atamai Analytics for extracting and visualising image metrics/statistics from geoscientific imagery.",
+    "link": "https://atamaianalytics.shinyapps.io/DemoImagoStatistics/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["image-metrics", "imagery-analysis", "geoscience-images", "visualisation"],
+    "stars": null
+  },
+  {
+    "name": "Grade Width Intercepts – from CSV",
+    "icon": "⚒️",
+    "description": "An interactive web tool by Atamai Analytics for calculating grade × width intercepts using CSV‐formatted drill result data.",
+    "link": "https://atamaianalytics.shinyapps.io/GradeWidthIntercepts_csv/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["grade-width", "intercepts", "drill-results", "csv"],
+    "stars": null
+  },
+  {
+    "name": "Grade Width Intercepts – from ODBC",
+    "icon": "⚒️",
+    "description": "An interactive web tool by Atamai Analytics for calculating grade × width intercepts by connecting to a database via ODBC.",
+    "link": "https://atamaianalytics.shinyapps.io/GradeWidthIntercepts_ODBC/",
+    "category": "Geochemistry and Laboratory Analysis",
+    "tags": ["grade-width", "intercepts", "drill-results", "odbc"],
+    "stars": null
+  },
+  {
+    "name": "pyrestoolbox-mcp",
+    "icon": "⚒️",
+    "description": "A Model Context Protocol (MCP) server built on the pyResToolbox library for AI-powered reservoir engineering calculations.",
+    "link": "https://github.com/gabrielserrao/pyrestoolbox-mcp",
+    "category": "Machine Learning and AI for Geoscience",
+    "tags": ["reservoir-engineering", "MCP-server", "AI-integration", "pyResToolbox"],
+    "stars": null
   }
 ]
