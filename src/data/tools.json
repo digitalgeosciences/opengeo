@@ -3722,5 +3722,95 @@
                        "url":  "https://digitalgeosciences.com/"
                    }
                ]
-    }
+    },
+    {
+    "name": "Geofabrik (OSM Extracts)",
+    "icon": "🛰️",
+    "description": "Free OpenStreetMap shapefile extracts categorized by continent and country.",
+    "link": "https://www.geofabrik.de/data/shapefiles.html",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["remote-sensing", "osm", "shapefiles", "geodata"],
+    "stars": null
+  },
+  {
+    "name": "DIVA-GIS",
+    "icon": "🛰️",
+    "description": "Country-level administrative boundaries, roads, rivers, elevation, and land cover data.",
+    "link": "https://diva-gis.org/data.html",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["gis", "boundaries", "landcover", "vector-data"],
+    "stars": null
+  },
+  {
+    "name": "GADM (Global Administrative Areas)",
+    "icon": "🛰️",
+    "description": "Detailed administrative boundaries for all countries.",
+    "link": "https://gadm.org",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["boundaries", "administrative", "global", "gis"],
+    "stars": null
+  },
+  {
+    "name": "Humanitarian Data Exchange (HDX)",
+    "icon": "🛰️",
+    "description": "GIS datasets related to humanitarian crises and development.",
+    "link": "https://data.humdata.org",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["humanitarian", "development", "gis", "open-data"],
+    "stars": null
+  },
+  {
+    "name": "OpenStreetMap (Overpass Turbo)",
+    "icon": "🛰️",
+    "description": "Extract shapefile-ready data from OpenStreetMap using custom queries.",
+    "link": "https://overpass-turbo.eu",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["osm", "query", "vector", "open-data"],
+    "stars": null
+  },
+  {
+    "name": "MapCruzin",
+    "icon": "🛰️",
+    "description": "Various environmental, demographic, and infrastructure shapefile datasets.",
+    "link": "https://mapcruzin.com",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["environment", "demographics", "infrastructure", "shapefiles"],
+    "stars": null
+  },
+  {
+    "name": "FAO/UNESCO Soil Data",
+    "icon": "🛰️",
+    "description": "Global soil data of the world at 1:5,000,000 scale.",
+    "link": "https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["soil", "fao", "unesc", "global", "geodata"],
+    "stars": null
+  },
+  {
+    "name": "USGS Geological Data",
+    "icon": "🛰️",
+    "description": "Global geological data including terrain, minerals, and earth structure.",
+    "link": "https://certmapper.cr.usgs.gov/data/apps/world-maps/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["geology", "terrain", "usgs", "earth-data"],
+    "stars": null
+  },
+  {
+    "name": "Ramsar Sites",
+    "icon": "🛰️",
+    "description": "Wetlands of international importance under the Ramsar Convention.",
+    "link": "https://rsis.ramsar.org/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["wetlands", "ramsar", "biodiversity", "protected-areas"],
+    "stars": null
+  },
+  {
+    "name": "World Bank Data Catalog",
+    "icon": "🛰️",
+    "description": "Shapefile datasets on global development, urbanization, infrastructure, and environmental statistics.",
+    "link": "https://datacatalog.worldbank.org/",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["development", "infrastructure", "environment", "world-bank", "data"],
+    "stars": null
+  }
 ]
