@@ -1735,7 +1735,7 @@
             "geospatial",
             "gis",
             "mapping",
-            "spatial-analysis"
+            "google-earth-engine"
         ],
         "by": [
             {
@@ -4034,5 +4034,77 @@
             "precipitation"
         ],
         "stars": null
-    }
+    },
+    {
+    "name": "Earth Engine Py-Notebooks",
+    "icon": "🛰️",
+    "description": "A collection of 360+ Jupyter Python notebook examples for using Google Earth Engine with interactive mapping. :contentReference[oaicite:0]{index=0}",
+    "link": "https://github.com/giswqs/earthengine-py-notebooks",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "jupyter-notebook", "python", "interactive-mapping"],
+    "stars": null
+  },
+  {
+    "name": "Earth Engine Developers Community Tutorials",
+    "icon": "🛰️",
+    "description": "A community-contributed repository of tutorials and example scripts for Google Earth Engine. :contentReference[oaicite:1]{index=1}",
+    "link": "https://github.com/google/earthengine-community",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "community-tutorials", "scripts", "learning"],
+    "stars": null
+  },
+  {
+    "name": "Awesome GEE",
+    "icon": "🛰️",
+    "description": "A curated list of resources (tools, datasets, tutorials) for Google Earth Engine. :contentReference[oaicite:2]{index=2}",
+    "link": "https://github.com/opengeos/Awesome-GEE",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "resources", "dataset-list", "tutorials"],
+    "stars": null
+  },
+  {
+    "name": "GEE (AmirhosseinAhrari) ",
+    "icon": "🛰️",
+    "description": "A GitHub repository of Earth Engine scripts and tools by Amirhossein Ahrari.",
+    "link": "https://github.com/AmirhosseinAhrari/GoogleEarthEngine",  
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "scripts", "python", "tutorials"],
+    "stars": null
+  },
+  {
+    "name": "GEE Community Datasets",
+    "icon": "🛰️",
+    "description": "A collection of community-shared datasets for Google Earth Engine curated by Samapriya Roy. ",
+    "link": "https://github.com/samapriya/awesome-gee-community-datasets",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "datasets", "community", "open-data"],
+    "stars": null
+  },
+  {
+    "name": "Blue Ventures Conservation (GEEMangroveMapping)",
+    "icon": "🛰️",
+    "description": "Code for the Google Earth Engine Mangrove Mapping Methodology (GEM) developed by Blue Ventures Conservation. :contentReference[oaicite:3]{index=3}",
+    "link": "https://github.com/Blue-Ventures-Conservation/GEM",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "mangrove-mapping", "coastal-remote-sensing", "methodology"],
+    "stars": null
+  },
+  {
+    "name": "GEE Mapping-Source (Coral Reefs Mapping)",
+    "icon": "🛰️",
+    "description": "A repository implementing global coral reef mapping using Google Earth Engine (by Mitchest Lyons et al.). :contentReference[oaicite:4]{index=4}",
+    "link": "https://github.com/CoralMapping/gee-mapping-source",
+    "category": "Earth Observation and Satellite Data Portals",
+    "tags": ["google-earth-engine", "coral-reefs", "global-mapping", "remote-sensing"],
+    "stars": null
+  },
+  {
+    "name": "Geo AquaWatch Water Quality",
+    "icon": "💧",
+    "description": "A project to provide global-scale open access water quality information (coastal & inland) using Google Earth Engine. :contentReference[oaicite:5]{index=5}",
+    "link": "https://github.com/gee-community/geo-aquawatch-water-quality",
+    "category": "Hydrology and Environmental Data",
+    "tags": ["water-quality", "google-earth-engine", "coastal-water", "open-data"],
+    "stars": null
+  }
 ]
