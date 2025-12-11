@@ -63,7 +63,7 @@ export const Footer = () => {
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <UserCircle className="h-5 w-5" />
-                  GeoArabia Community
+                  Geoscience Arabia
                 </a>
               </div>
             </div>
