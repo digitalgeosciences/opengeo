@@ -114,6 +114,11 @@ Additional tips:
 
 For private/sensitive topics, email `info@digitalgeosciences.com` (also available on the Contact page).
 
+## Citation
+```
+Alqubalee, A. (2025). OpenGeo (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.17915411
+```
+
 ## Acknowledgements
 
 OpenGeos is inspired by the community-maintained [softwareunderground/awesome-open-geoscience](https://doi.org/10.5281/zenodo.8354180) list compiled by Justin Gosses, Jesper Dramsch, Evan Bianco, Dieter Werthmueller, Andrew Moodie, Bane Sullivan, Matteo Niccoli, Leonardo Uieda, and many other contributors. Their work laid the foundation for this catalogue.
