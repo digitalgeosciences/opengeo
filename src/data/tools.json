@@ -4187,5 +4187,47 @@
             "prospectivity"
         ],
         "stars": null
+    },
+    {
+        "name": "FutureGeo",
+        "icon": "🌍",
+        "description": "Interactive experience showcasing how geoscientists advance the UN Sustainable Development Goals with resources and insights.",
+        "link": "https://github.com/digitalgeosciences/futuregeo",
+        "category": "General",
+        "tags": [
+            "geoscience",
+            "sustainable-development",
+            "interactive",
+            "education"
+        ],
+        "stars": null
+    },
+    {
+        "name": "GeoArabia Dashboard",
+        "icon": "🌍",
+        "description": "Interactive research analytics dashboard for geoscientific publications, topics, institutions, and collaboration patterns in Arabian geosciences.",
+        "link": "https://geoarabia.com/idb",
+        "category": "Research",
+        "tags": [
+            "research-analytics",
+            "geoscience",
+            "publications",
+            "dashboard"
+        ],
+        "stars": null
+    },
+    {
+        "name": "ALQUBALEE Notes",
+        "icon": "📚",
+        "description": "Geoscience research and educational blog with notes, publications, analysis, and resources in geology and digital geosciences.",
+        "link": "https://qubalee.com",
+        "category": "Research",
+        "tags": [
+            "geoscience",
+            "research-notes",
+            "education",
+            "digital-geosciences"
+        ],
+        "stars": null
     }
 ]
