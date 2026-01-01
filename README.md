@@ -1,5 +1,5 @@
 # OpenGeo
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17915411.svg)](https://doi.org/10.5281/zenodo.17915411) [![License](https://img.shields.io/github/license/digitalgeosciences/opengeo)](LICENSE) ![Release](https://img.shields.io/github/v/release/digitalgeosciences/opengeo)
 An open catalogue of geoscience software, datasets, and learning material designed to help researchers, educators, and practitioners find modern, open-source tools. This repository hosts the Vite + React front-end that powers [Digital Geoscience's](https://digitalgeosciences.com/) public directory.
 
 ## Features
