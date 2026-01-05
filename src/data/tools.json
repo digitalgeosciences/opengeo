@@ -4229,5 +4229,19 @@
             "digital-geosciences"
         ],
         "stars": null
+    },
+    {
+        "name": "Transformers & LLMs (CME 295)",
+        "icon": "🤖",
+        "description": "Stanford course on Transformers and Large Language Models covering NLP evolution, architecture, and real-world applications.",
+        "link": "https://cme295.stanford.edu/syllabus/",
+        "category": "Machine Learning and AI for Geoscience",
+        "tags": [
+            "transformers",
+            "llms",
+            "nlp",
+            "machine-learning"
+        ],
+        "stars": null
     }
 ]
