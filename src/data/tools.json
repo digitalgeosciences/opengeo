@@ -4243,5 +4243,18 @@
             "machine-learning"
         ],
         "stars": null
+    },
+    {
+        "name": "Factsheets by EGS",
+        "icon": "🌍",
+        "description": "A collection of downloadable PDF factsheets from EuroGeoSurveys highlighting harmonised geological data and its role in supporting geoscience and societal decisions.",
+        "link": "https://eurogeosurveys.org/resources/factsheets",
+        "category": "Geological Mapping and Visualization",
+        "tags": [
+            "geological-data",
+            "factsheets",
+            "harmonisation"
+        ],
+        "stars": null
     }
 ]
