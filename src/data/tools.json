@@ -4256,5 +4256,14 @@
             "harmonisation"
         ],
         "stars": null
-    }
+    },
+{
+  "name": "Naturally-Occurring Hydrogen: Technology and Projects Database",
+  "icon": "🌍",
+  "description": "Interactive database mapping natural hydrogen projects and occurrences worldwide.",
+  "link": "https://natural-hydrogen.epri.com/",
+  "category": "Geophysics and Subsurface Tools",
+  "tags": ["natural-hydrogen", "subsurface", "exploration"],
+  "stars": null
+}
 ]
